@@ -1,0 +1,11 @@
+# check.py slides  20261123-221613
+P2 第 2 頁 數字 1 不在 ['index.md'] 裡
+P2 第 2 頁 數字 2 不在 ['index.md'] 裡
+P2 第 2 頁 數字 3 不在 ['index.md'] 裡
+P2 第 2 頁 數字 4 不在 ['index.md'] 裡
+P2 第 2 頁 數字 5 不在 ['index.md'] 裡
+P2 第 8 頁 數字 3 不在 ['labor.md'] 裡
+P2 第 9 頁 數字 4 不在 ['circular-fashion.md'] 裡
+P2 第 11 頁 數字 5 不在 ['alternatives.md'] 裡
+P3（提醒）contradictions.md 沒被任何一頁簡報用到
+結果：不通過（錯誤 8，提醒 1）

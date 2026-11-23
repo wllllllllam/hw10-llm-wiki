@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>快時尚的代價</title>
+<style>
+:root{--bg:#f6f3ee;--ink:#22201c;--muted:#6b665d;--accent:#b5482a;--card:#fff;--line:#ddd6ca}
+@media (prefers-color-scheme:dark){:root{--bg:#1b1a18;--ink:#eeeae3;--muted:#a59f94;--accent:#e07a55;--card:#26241f;--line:#3a372f}}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family:"Noto Sans TC","PingFang TC",system-ui,sans-serif}
+section{display:none;min-height:100vh;padding:7vh 8vw 12vh;max-width:1100px;margin:0 auto;flex-direction:column;justify-content:center}
+section.on{display:flex}
+h1{font-size:clamp(2.2rem,6vw,4.2rem);margin:.2em 0;line-height:1.15}
+h2{font-size:clamp(1.6rem,4vw,2.6rem);margin:0 0 .6em;line-height:1.2}
+p,li{font-size:clamp(1.05rem,2.2vw,1.4rem);line-height:1.7}
+ul{padding-left:1.2em;margin:.2em 0}
+.kicker{color:var(--accent);font-weight:700;letter-spacing:.08em;font-size:.95rem}
+.muted{color:var(--muted)}
+.big{font-size:clamp(2.6rem,8vw,5rem);font-weight:800;color:var(--accent);line-height:1}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:.6em}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px}
+.card p{margin:.3em 0 0;font-size:1.05rem}
+.flow{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:1.2rem;margin:.6em 0}
+.flow span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 16px}
+.src{position:fixed;left:8vw;bottom:5vh;font-size:.85rem;color:var(--muted)}
+nav{position:fixed;right:4vw;bottom:4vh;display:flex;gap:8px;align-items:center;color:var(--muted)}
+nav button{font:inherit;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:6px 14px;cursor:pointer}
+.q{border-left:4px solid var(--accent);padding-left:16px}
+</style>
+</head>
+<body>
+
+<section data-wiki="index.md">
+  <div class="kicker">教學簡報｜永續時尚 LLM Wiki</div>
+  <h1>快時尚的代價</h1>
+  <p class="muted">一件便宜的衣服，背後付錢的是誰？給沒接觸過時尚產業的人的入門。</p>
+  <p class="muted">按 → 或空白鍵下一頁</p>
+</section>
+
+<section data-wiki="index.md">
+  <h2>今天的路線</h2>
+  <div class="flow"><span class="step">1 快時尚是什麼</span>→<span class="step">2 環境代價</span>→<span class="step">3 人的代價</span>→<span class="step">4 循環時尚</span>→<span class="step">5 我們能做什麼</span></div>
+  <p class="muted">先講是什麼，再講為什麼重要，最後講能做什麼。</p>
+</section>
+
+<section data-wiki="fast-fashion.md">
+  <div class="kicker">1 是什麼</div>
+  <h2>快時尚 = 很便宜 ＋ 一直出新款</h2>
+  <ul>
+    <li>歐洲議會的定義：以很低的價格，持續提供新款式。</li>
+    <li>品牌讓系列一直換、價格壓低，鼓勵大家常常買、常常丟。</li>
+    <li>你可能認識的：Shein、H&amp;M、Zara、Uniqlo。</li>
+  </ul>
+</section>
+
+<section data-wiki="fast-fashion.md">
+  <div class="kicker">1 是什麼</div>
+  <h2>買得更多，穿得更短</h2>
+  <div class="grid">
+    <div class="card"><div class="big">2 倍</div><p>2000 到 2014 年，全球服裝產量翻倍</p></div>
+    <div class="card"><div class="big">+60%</div><p>平均每人買的衣服比 15 年前多</p></div>
+    <div class="card"><div class="big">½</div><p>但每件留在身邊的時間只剩一半</p></div>
+  </div>
+  <p class="muted">社群媒體的開箱影片讓速度更快，叫做「超快時尚」。</p>
+</section>
+
+<section data-wiki="environment.md contradictions.md">
+  <div class="kicker">2 環境代價</div>
+  <h2>一件衣服喝掉多少水？</h2>
+  <div class="grid">
+    <div class="card"><div class="big">2,700 L</div><p>做一件棉 T 恤</p></div>
+    <div class="card"><div class="big">7,500 L</div><p>做一條牛仔褲，約一個人 7 年的飲水量</p></div>
+    <div class="card"><div class="big">20%</div><p>全球乾淨水源污染來自紡織生產</p></div>
+  </div>
+</section>
+
+<section data-wiki="environment.md contradictions.md">
+  <div class="kicker">2 環境代價</div>
+  <h2>洗衣服也會污染海洋</h2>
+  <ul>
+    <li>聚酯纖維（一種塑膠）衣服洗一次，可能掉出 700,000 條塑膠微纖維。</li>
+    <li>每年有超過 50 萬噸塑膠微纖維沉到海底。</li>
+    <li>碳排放：服裝和鞋類生產最多約占全球溫室氣體的 8%（另一份研究估 2-8%），到 2030 年可能再增加將近 50%。</li>
+  </ul>
+</section>
+
+<section data-wiki="environment.md">
+  <div class="kicker">2 環境代價</div>
+  <h2>衣服最後去哪了？</h2>
+  <p class="big">每 1 秒</p>
+  <p>就有一整台垃圾車的衣服被燒掉或掩埋。</p>
+  <ul>
+    <li>舊衣不到一半被回收，只有 1% 真的變成新衣服。</li>
+    <li>出口到國外的二手衣，87% 最後還是被焚化或掩埋。</li>
+  </ul>
+</section>
+
+<section data-wiki="labor.md">
+  <div class="kicker">3 人的代價</div>
+  <h2>2013 年 Rana Plaza 倒塌</h2>
+  <ul>
+    <li>孟加拉一棟 8 層樓的大樓，裡面有成衣工廠。</li>
+    <li>4 月 23 日出現裂縫，商店和銀行馬上關門；工廠卻要工人隔天照常上班。</li>
+    <li>4 月 24 日大樓倒塌：1,134 人死亡，將近 2600 人受傷。成衣業史上最嚴重的工安事故。</li>
+    <li>之後成立建築安全協議，超過 200 家公司簽署。</li>
+  </ul>
+</section>
+
+<section data-wiki="circular-fashion.md">
+  <div class="kicker">4 出路</div>
+  <h2>從「一條線」改成「一個圈」</h2>
+  <div class="flow"><span>原料</span>→<span>做衣服</span>→<span>穿一下</span>→<span>丟掉</span></div>
+  <p class="muted">線性：現在的時尚產業</p>
+  <div class="flow"><span>設計得耐穿</span>→<span>轉賣・租借・修補</span>→<span>回收再做成新衣</span>↺</div>
+  <p class="muted">循環：要同時改設計、商業模式、回收系統三件事。估計有 5,000 億美元的經濟機會。</p>
+</section>
+
+<section data-wiki="policy-greenwashing.md">
+  <div class="kicker">4 出路</div>
+  <h2>政府開始管了，也要小心「漂綠」</h2>
+  <ul>
+    <li>歐盟從 2025 年起，紡織品要分開回收。</li>
+    <li>從 2026 年起，歐盟禁止銷毀賣不掉的衣服、鞋子和配件。</li>
+    <li><b>漂綠</b>：行銷上假裝很環保。Shein 曾因此在義大利被罰 100 萬歐元。</li>
+  </ul>
+</section>
+
+<section data-wiki="alternatives.md">
+  <div class="kicker">5 我們能做什麼</div>
+  <h2>效果最好的是「少買」</h2>
+  <ol>
+    <li><b>少買</b>：研究指出，減少購買的效果最好。</li>
+    <li><b>穿久、修補</b>：最永續的衣服，是你衣櫃裡已經有的那些。</li>
+    <li><b>買二手、交換</b>：讓衣服被多穿幾次。</li>
+    <li><b>升級再造</b>：把不要的布料做成新東西。</li>
+  </ol>
+  <p class="muted">提醒：要每個人都不買便宜衣服，對低收入族群並不公平，所以政策和品牌也要一起改。</p>
+</section>
+
+<section data-wiki="fast-fashion.md environment.md labor.md circular-fashion.md alternatives.md">
+  <div class="kicker">總結</div>
+  <h2>帶走三句話</h2>
+  <p class="q">快時尚便宜，是因為環境和工人替我們付了錢。</p>
+  <p class="q">問題出在「一條線」的模式：做得多、穿得短、丟得快。</p>
+  <p class="q">個人能做的第一步是少買、穿久；更大的改變靠設計、商業模式和政策。</p>
+</section>
+
+<section data-wiki="sources.md glossary.md">
+  <h2>名詞與資料來源</h2>
+  <p><b>快時尚</b> 低價、一直出新款　<b>循環經濟</b> 讓材料一直流通　<b>漂綠</b> 假裝環保　<b>升級再造</b> 廢料做成新產品</p>
+  <ul class="muted" style="font-size:1rem">
+    <li>S1 歐洲議會（2020，2025 更新）　S2 UN News（2019）　S3 Ellen MacArthur 基金會（2017）</li>
+    <li>S4 Clean Clothes Campaign　S5 Wikipedia: Fast fashion　S6 Wikipedia: Sustainable fashion</li>
+  </ul>
+  <p class="muted">每一頁的內容都出自這份 LLM Wiki，頁面左下角標了出處頁。</p>
+</section>
+
+<div class="src" id="src"></div>
+<nav><button id="prev" aria-label="上一頁">←</button><span id="pg"></span><button id="next" aria-label="下一頁">→</button></nav>
+<script>
+const S=[...document.querySelectorAll('section')];let i=Math.max(0,Math.min(S.length-1,(+location.hash.slice(1)||1)-1));
+function show(){S.forEach((s,k)=>s.classList.toggle('on',k===i));document.getElementById('pg').textContent=(i+1)+' / '+S.length;
+document.getElementById('src').textContent='出處：wiki/'+S[i].dataset.wiki.split(' ').join('、wiki/');history.replaceState(null,'','#'+(i+1))}
+function go(d){i=Math.max(0,Math.min(S.length-1,i+d));show()}
+document.getElementById('prev').onclick=()=>go(-1);document.getElementById('next').onclick=()=>go(1);
+addEventListener('keydown',e=>{if(['ArrowRight',' ','PageDown'].includes(e.key)){e.preventDefault();go(1)}if(['ArrowLeft','PageUp'].includes(e.key))go(-1)});
+let x0=null;addEventListener('touchstart',e=>x0=e.touches[0].clientX);addEventListener('touchend',e=>{if(x0===null)return;const dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>50)go(dx<0?1:-1);x0=null});
+addEventListener('hashchange',()=>{const n=(+location.hash.slice(1)||1)-1;if(n!==i){i=Math.max(0,Math.min(S.length-1,n));show()}});
+show();
+</script>
+</body>
+</html>

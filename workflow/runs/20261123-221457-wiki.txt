@@ -1,0 +1,22 @@
+# check.py wiki  20261123-221457
+W1 alternatives.md:20 沒標來源：- [[circular-fashion]]、[[environment]]
+W2 circular-fashion.md:16 數字 5000 不在 S3 原文裡
+W2 circular-fashion.md:17 數字 3 不在 S1 原文裡
+W1 circular-fashion.md:20 沒標來源：- 個人能做的：[[alternatives]]
+W1 circular-fashion.md:21 沒標來源：- 政策：[[policy-greenwashing]]
+W2 contradictions.md:7 數字 7570 不在 S2 原文裡
+W2 environment.md:7 數字 7 不在 S2 原文裡
+W2 environment.md:8 數字 930 不在 S2 原文裡
+W2 environment.md:8 數字 500 不在 S2 原文裡
+W2 environment.md:14 數字 50 不在 S1 原文裡
+W1 environment.md:30 沒標來源：- 為什麼會這樣：[[fast-fashion]]
+W1 environment.md:31 沒標來源：- 怎麼改：[[circular-fashion]]、[[alternative
+W1 fast-fashion.md:18 沒標來源：- 代價：[[environment]]、[[labor]]
+W1 fast-fashion.md:19 沒標來源：- 出路：[[circular-fashion]]、[[alternatives
+W2 labor.md:6 數字 8 不在 S4 原文裡
+W2 labor.md:14 數字 5 不在 S4 原文裡
+W1 labor.md:18 沒標來源：- [[fast-fashion]]、[[policy-greenwashing
+W2 policy-greenwashing.md:4 數字 3 不在 S1 原文裡
+W2 policy-greenwashing.md:12 數字 100 不在 S5 原文裡
+W1 policy-greenwashing.md:16 沒標來源：- [[circular-fashion]]、[[labor]]
+結果：不通過（錯誤 20，提醒 0）
